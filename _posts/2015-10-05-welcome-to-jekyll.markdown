@@ -1,25 +1,21 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "配置Jekyll，并尝试写作"
 date:   2015-10-05 12:47:25
-categories: jekyll update
+categories: jekyll
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+代码写得太多太杂的一个缺点就是，时间长了就不记得之前解决问题的方法了。下次遇到的时候，要么Google，要么查看之前的代码。
+不如把这些方法记录下来。
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+也找了一些博客网站来写技术文章，但是发现都不够“代码思维”。Jekyll算是一个很“代码思维”的东西吧。
 
-Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
 end
 print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
