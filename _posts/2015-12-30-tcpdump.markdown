@@ -1,7 +1,13 @@
 ---
 layout: post
 title:  "tcpdump 抓包并用wireshark调试"
-date:   2015-10-05 12:47:25
+date:   2015-12-30 15:01:25
 categories: tcpdump
 ---
-## 
+## tcpdump 抓包的命令
+
+tcpdump -i eth1 -s 0 -A port 2223 -w ~/tcpraw.cap
+
+
+如果不需要写入文件那就可以  -w 后面的去掉
+
