@@ -12,18 +12,21 @@ $curl -sSL https://get.daocloud.io/docker | sh
 ```
 
 ## 配置
+
 ```
 $service docker stop
 
 $rsync -a /var/lib/docker/* /opt/docker/
-```
-```
+
 $vim /etc/default/docker
 ```
+
 更改docker 运行时路径，并使用阿里的镜像
+
 ```
 DOCKER_OPTS="-g /opt/docker/ --registry-mirror=https://kw3bpzgp.mirror.aliyuncs.com"
 ```
+
 重启 docker
 
 ```
@@ -37,6 +40,7 @@ ref: https://github.com/docker/docker/issues/3127
 ```
 $docker run --name yt-mysql57 -v /opt/mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root@1234 -d mysql:5.7 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
 ```
+
 进入容器并使用 mysql-client
 
 ```
