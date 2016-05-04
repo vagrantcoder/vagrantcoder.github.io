@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Docker在阿里云上的配置"
-date:   2015-05-04
+date:   2016-05-04
 categories: docker
 ---
 ##  安装docker
