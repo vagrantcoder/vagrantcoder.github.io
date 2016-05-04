@@ -11,3 +11,10 @@ tcpdump -i eth1 -s 0 -A port 2223 -w ~/tcpraw.cap
 
 如果不需要写入文件那就可以  -w 后面的去掉
 
+保存下来的文件可以用 wireshark 打开。
+
+## 在mac上安装 wireshark
+
+brew insall wireshark --with-qt  
+
+加上 --with-qt 参数可以在mac下使用图形界面

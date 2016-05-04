@@ -10,12 +10,12 @@ categories: jekyll
 也找了一些博客网站来写技术文章，但是发现都不够“代码思维”。Jekyll算是一个很“代码思维”的东西吧。
 
 
-{% highlight ruby %}
+```
 def print_hi(name)
   puts "Hi, #{name}"
 end
 print_hi('Tom')
-{% endhighlight %}
+```
 
 
 
