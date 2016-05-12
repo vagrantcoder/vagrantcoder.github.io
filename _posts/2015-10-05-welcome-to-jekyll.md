@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "配置Jekyll，并尝试写作"
-date:   2015-10-05 12:47:25
 categories: jekyll
 ---
 代码写得太多太杂的一个缺点就是，时间长了就不记得之前解决问题的方法了。下次遇到的时候，要么Google，要么查看之前的代码。

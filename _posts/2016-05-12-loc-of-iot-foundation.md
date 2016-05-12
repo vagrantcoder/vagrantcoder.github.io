@@ -1,8 +1,6 @@
-
 ---
 layout: post
 title:  "Line of code log"
-date:   2016-05-12
 categories: IoT foundation
 ---
 

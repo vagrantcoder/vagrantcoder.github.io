@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "在ubuntu14.04阿里云模板上安装docker"
-date:   2015-10-05 12:47:25
 categories: docker
 ---
 
