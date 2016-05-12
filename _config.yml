@@ -16,4 +16,4 @@ github_username:  xuxiaoxin
 markdown: kramdown
 timezone: Asia/Shanghai
 
-highlighter:rouge
+highlighter: rouge
