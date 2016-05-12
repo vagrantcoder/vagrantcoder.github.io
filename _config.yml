@@ -15,3 +15,8 @@ github_username:  xuxiaoxin
 # Build settings
 markdown: kramdown
 timezone: Asia/Shanghai
+
+
+pygments: true
+safe: true
+auto: true
