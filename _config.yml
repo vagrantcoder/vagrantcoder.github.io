@@ -17,6 +17,6 @@ markdown: kramdown
 timezone: Asia/Shanghai
 
 
-pygments: true
-safe: true
-auto: true
+# pygments: true
+# safe: true
+# auto: true
