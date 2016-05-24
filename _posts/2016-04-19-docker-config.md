@@ -10,7 +10,7 @@ categories: docker
 $curl -sSL https://get.daocloud.io/docker | sh
 ```
 
-## 配置
+## 配置，将docker的工作目录切换
 
 ```sh
 $service docker stop
