@@ -55,6 +55,12 @@ ref: https://hub.docker.com/_/mysql/
 $docker run -d --name yt-redmine  -v /opt/redmine/data:/usr/src/redmine/files --link yt-mysql57 -e MYSQL_DATABASE=redmine -p 3000:3000 redmine:3.2
 ```
 
+安装完之后需要修改一下 database.yml 配置文件，因为初始状态下redmine会使用sqlite作为数据库。
+
+```sh
+$docker cp 
+```
+
 
 
 
