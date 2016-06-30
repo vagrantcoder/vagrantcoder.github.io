@@ -13,17 +13,23 @@ categories: IoT foundation
 
 
 ```sql
-create schemaName (
-    id string
-    dev_type number
+create schema schemaName (
+    id string readonly
+    dev_type number readonly
     name string
     dis_temp string timeseries
+    hardware_version number bypass
+    software_version number bypass
+    package_url string bypass
+    geofence string event
+)
+
+create trigger triggerName On schema.geofence (
+    PUSH schema.geofence
 )
 ```
 
-
-
-## Topic uri
+## Topic URI
 
 ### 真实的设备 device 
 
@@ -33,10 +39,8 @@ create schemaName (
 /schemaName/deviceId
 ```
 
-> 比如说，海林的设备可以表达为 /hailin/ACCFAAAAAA
-> 
+> 比如说，海林的设备可以表达为 /hailin/ACCFAAAAAA 
 
-### device tops
 
 ## Device
 
@@ -44,7 +48,7 @@ create schemaName (
 
 Device 有 Schema
 
-Device 有 Potocol
+Device 有 Protocol
 
 Schema 定义字段，字段类型，读写权限等
 
